@@ -31,7 +31,14 @@ server.get("/api/products", (req, res) => {
     res.send(data.products);
   });
 
- 
+  server.get("/api/products/slug/:slug", (req, res) => {
+   const product = data.products.find((x)=> x.slug === req.params.slug)
+   if (product) {
+    res.send(product)
+   } else {
+    res.status(404).send({message: 'Product Not Found'})
+   }
+  });
 // Error catching endware.
 server.use((err, req, res, next) => {
   // eslint-disable-line no-unused-vars
