@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id: "1",
       name: "Nike Slim cap",
       slug: "nike-slim-cap",
       category: "Caps",
@@ -13,6 +14,7 @@ const data = {
       description: "high quality cap",
     },
     {
+      _id: "2",
       name: "Adidas Fit cap",
       slug: "adidas-fit-cap",
       category: "Caps",
@@ -25,6 +27,7 @@ const data = {
       description: "high quality product",
     },
     {
+      _id: "3",
       name: "Adidas Slim Cap",
       slug: "adidas-slim-cap",
       category: "Caps",
@@ -37,6 +40,7 @@ const data = {
       description: "high quality product",
     },
     {
+      _id: "4",
       name: "Nike Fit Cap",
       slug: "nike-fit-cap",
       category: "Caps",
@@ -49,6 +53,7 @@ const data = {
       description: "high quality product",
     },
     {
+      _id: "5",
       name: "Puma Slim cap",
       slug: "puma-slim-cap",
       category: "Caps",
@@ -61,6 +66,7 @@ const data = {
       description: "high quality cap",
     },
     {
+      _id: "6",
       name: "Puma Fit cap",
       slug: "puma-fit-cap",
       category: "Caps",

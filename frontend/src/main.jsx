@@ -4,7 +4,7 @@ import { HelmetProvider } from "react-helmet-async";
 import App from "./App.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
-import { StoreProvider } from "../Store";
+import { StoreProvider } from "./Store";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
